@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="pics_n_palette" data-name="pics n palette" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392.07 40.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #131a33;
+        font-family: Afronaut-Regular, Afronaut;
+        font-size: 36px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 31.3)"><tspan x="0" y="0">a part time d</tspan><tspan class="cls-2" x="247.06" y="0">r</tspan><tspan x="265.24" y="0">eamer</tspan></text>
+</svg>

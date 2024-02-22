@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="pics_n_palette" data-name="pics n palette" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790.44 444.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cbfd00;
+        font-family: ChillaxVariable-Bold, 'Chillax Variable';
+        font-size: 204px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(5.88 170.85)"><tspan x="0" y="0">K</tspan><tspan class="cls-2" x="151.37" y="0">H</tspan><tspan class="cls-3" x="309.47" y="0">ANH </tspan><tspan x="162.69" y="244.8">D</tspan><tspan class="cls-4" x="316.71" y="244.8">A</tspan><tspan class="cls-5" x="457.06" y="244.8">O</tspan></text>
+</svg>
