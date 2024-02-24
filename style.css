@@ -1279,7 +1279,7 @@ margin-left: 2vw;}
 #hblink {
   font-family: Afronaut;
   font-size: 1.3vw;
-  color: #404DFD;
+  color: #2cdfb877;
   grid-column-start: 6;
   grid-column-end: 12;
   grid-row-start: 7;
@@ -1325,6 +1325,30 @@ margin-left: 2vw;}
 
 html {
   cursor: url("logo-07.svg"), auto;
+}
+
+/*scrolling bar*/
+@media screen and (min-width: 768.6px) {
+  /* width */
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131A33;
+; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2CDFB7; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2cdfb877; 
+}
 }
 
 
