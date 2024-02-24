@@ -1178,6 +1178,7 @@ margin-left: 2vw;}
   grid-row-end: 8;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .ref {
@@ -1286,7 +1287,9 @@ margin-left: 2vw;}
   display: flex;
   align-items: center;
   text-decoration: underline;
+  z-index: 2;
 }
+
 
 /*human to demon*/
 #htd1,
