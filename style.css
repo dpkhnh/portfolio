@@ -24,7 +24,7 @@ body {
 
 }
 
-p{ font-family: 'Chillax-Bold';}
+p{font-family: 'Chillax-Bold';}
 
 /*
 .bordergreen {
@@ -2539,12 +2539,14 @@ html {
 
   #education {
     column-gap: 1vw;
-    margin-left: 1vw;
+    margin-left: 0vw;
   }
 
   #educationname {
-    margin-right: 1.5vw;
+    margin-right: 0vw;
+    transform: translateX(-1vw);
   }
+  
 
   #despitenewbie,
   .edustatus,
@@ -2581,7 +2583,7 @@ html {
   }
 
   #expertise {
-    margin-top: 17vw;
+    margin-top: 18vw;
   }
 
   .bigtitles {
@@ -2609,7 +2611,7 @@ html {
   #b8gradient {
     position: absolute;
     width: 15vw;
-    transform: translate(85vw, -260vw);
+    transform: translate(85vw, -270vw);
   }
 
   .nextbutt,
