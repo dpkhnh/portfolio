@@ -409,7 +409,7 @@ footer {
 }
 
 i {
-  font-family: chillax;
+  font-family: 'Chillax-Regular';
 }
 
 .upbutton {
@@ -492,7 +492,7 @@ i {
 
 /*about*/
 #despitenewbie {
-  font-family: Chillax;
+  font-family: 'Chillax-Regular';
   color: #FDDAF6;
   margin-top: 20vw;
   font-size: 1.5vw;
@@ -535,7 +535,7 @@ i {
 .edustatus {
   color: #FDDAF6;
   font-size: 1.5vw;
-  font-family: 'Chillax';
+  font-family: 'Chillax-Regular';
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -571,7 +571,7 @@ i {
 
 .expertisedescription {
   font-size: 1.5vw;
-  font-family: 'Chillax';
+  font-family: 'Chillax-Regular';
   color: #131A33;
 }
 
@@ -626,7 +626,7 @@ i {
 #languageslist {
   font-size: 1.5vw;
   color: #FDDAF6;
-  font-family: chillax;
+  font-family: 'Chillax-Regular';
   text-align: right;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -911,7 +911,7 @@ i {
 }
 
 #feelfree {
-  font-family: chillax;
+  font-family: 'Chillax-Regular';
   color: #FDDAF6;
   font-size: 1.5vw;
 }
@@ -1040,7 +1040,7 @@ i {
 }
 
 .projectcontent {
-  font-family: chillax;
+  font-family: 'Chillax-Regular';
   font-size: 1.5vw;
   color: #131A33;
 }
@@ -1181,7 +1181,7 @@ margin-left: 2vw;}
 }
 
 .ref {
-  font-family: chillax;
+  font-family: 'Chillax-Regular';
   font-size: 1.3vw;
   color: #404DFD;
 }
@@ -1675,7 +1675,7 @@ html {
 
   .expertisedescription {
     font-size: 3vw;
-    font-family: chillax;
+    font-family: 'Chillax-Regular';
   }
 
   #expertisecontent {
@@ -3153,4 +3153,4 @@ html {
 
 }
 
-#despitenewbie, .edustatus, .expertisedescription, #languageslist, i, #feelfree, .projectcontent{font-family:'Chillax';}
+#despitenewbie, .edustatus, .expertisedescription, #languageslist, i, #feelfree, .projectcontent{  font-family: 'Chillax-Regular';}
