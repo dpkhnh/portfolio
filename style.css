@@ -535,7 +535,7 @@ i {
 .edustatus {
   color: #FDDAF6;
   font-size: 1.5vw;
-  font-family: Chillax;
+  font-family: 'Chillax';
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -571,7 +571,7 @@ i {
 
 .expertisedescription {
   font-size: 1.5vw;
-  font-family: chillax;
+  font-family: 'Chillax';
   color: #131A33;
 }
 
@@ -3152,3 +3152,5 @@ html {
   }
 
 }
+
+#despitenewbie, .edustatus, .expertisedescription, #languageslist, i, #feelfree, .projectcontent{font-family:'Chillax';}
