@@ -679,6 +679,7 @@ i {
   animation-timing-function: ease-in-out;
 }
 
+
 @keyframes moveright {
   100% {
     transform: translateX(2vw);
@@ -823,7 +824,7 @@ i {
   right: 0;
   opacity: 0;
   transition: .5s ease;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(19, 26, 51, 0.32) 0%, rgba(0, 0, 0, 0.98) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(19, 26, 51, 0.32) 0%, rgba(0, 0, 0, 0.81) 100%);
 }
 
 .projects:hover .overlay {
@@ -1237,17 +1238,28 @@ margin-left: 2vw;}
   flex-direction: column;
 }
 
-/*chicken feet*/
+/*chicken feet => beyond the cup*/
 #cf1,
 #cf2,
 #cf3,
 #cf4,
-#cf5 {
+#cf5,
+#cf6,
+#cf7 {
   width: 39vw;
-  height: 22vw;
+  height: 21.5vw;
+}
+/*atl3d => ba tien*/
+#tien1,
+#tien2,
+#tien3,
+#tien4,
+#tien5 {
+  width: 39vw;
+  height: 21.5vw;
 }
 
-/*feesh = angel numbers*/
+/*feesh => angel numbers*/
 #feesh1,
 #feesh2,
 #feesh3,
@@ -1915,6 +1927,11 @@ html {
     column-gap: 3vw;
   }
 
+  #tienproject {
+    grid-template-rows: repeat(46, 3vw);
+    column-gap: 3vw;
+  }
+
   #htdproject {
     grid-template-rows: repeat(42, 3vw);
     column-gap: 3vw;
@@ -1926,7 +1943,7 @@ html {
   }
 
   #cfproject {
-    grid-template-rows: repeat(27, 3vw);
+    grid-template-rows: repeat(41, 3vw);
     column-gap: 3vw;
   }
 
@@ -1957,6 +1974,22 @@ html {
   .projectcontentleft,
   .projectcontentright {
     align-items: flex-start;
+  }
+
+
+
+  #contentleft-tien {
+    grid-row-start: 12;
+    grid-row-end: 22;
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
+  #contentright-tien {
+    grid-row-start: 24;
+    grid-row-end: 28;
+    grid-column-start: 2;
+    grid-column-end: 12;
   }
 
   #contentleft-htd {
@@ -2009,8 +2042,8 @@ html {
   }
 
   #contentright-cf {
-    grid-row-start: 19;
-    grid-row-end: 28;
+    grid-row-start: 21;
+    grid-row-end: 40;
     grid-column-start: 2;
     grid-column-end: 12;
   }
@@ -2167,6 +2200,15 @@ html {
     grid-row-end: 9;
   }
 
+  #tien1,
+  #tien2,
+  #tien3,
+  #tien4,
+  #tien5 {
+    width: 78vw;
+    height: 43.6vw;
+  }
+
 #feesh1,
 #feesh2,
 #feesh3,
@@ -2182,7 +2224,9 @@ html {
   #cf2,
   #cf3,
   #cf4,
-  #cf5 {
+  #cf5,
+  #cf6,
+  #cf7  {
     width: 78vw;
     height: 44vw;
   }
@@ -2752,7 +2796,6 @@ html {
   #thcover {
     width: 90vw;
     height: 90vw;
-    ;
     margin: auto;
   }
 
@@ -2916,6 +2959,11 @@ html {
     font-size: 4vw;
   }
 
+  #tienproject {
+    grid-template-rows: repeat(69, 3vw);
+    column-gap: 3vw;
+  }
+
   #atlproject {
     grid-template-rows: repeat(76, 3vw);
     column-gap: 3vw;
@@ -2932,7 +2980,7 @@ html {
   }
 
   #cfproject {
-    grid-template-rows: repeat(40, 3vw);
+    grid-template-rows: repeat(57, 3vw);
     column-gap: 3vw;
   }
 
@@ -2975,6 +3023,20 @@ html {
     grid-column-end: 12;
   }
 
+  #contentleft-tien {
+    grid-row-start: 12;
+    grid-row-end: 26;
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
+  #contentright-tien {
+    grid-row-start: 29;
+    grid-row-end: 69;
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
   #contentleft-atl {
     grid-row-start: 12;
     grid-row-end: 40;
@@ -3005,13 +3067,13 @@ html {
 
   #contentleft-cf {
     grid-row-start: 12;
-    grid-row-end: 21;
+    grid-row-end: 23;
     grid-column-start: 2;
     grid-column-end: 12;
   }
 
   #contentright-cf {
-    grid-row-start: 23;
+    grid-row-start: 25;
     grid-row-end: 41;
     grid-column-start: 2;
     grid-column-end: 12;
@@ -3152,12 +3214,22 @@ html {
   height: 39vw;
 }
 
+#tien1,
+#tien2,
+#tien3,
+#tien4,
+#tien5 {
+  width: 72vw;
+  height: 40.5vw;
+}
 
   #cf1,
   #cf2,
   #cf3,
   #cf4,
-  #cf5 {
+  #cf5,
+  #cf6,
+  #cf7 {
     width: 72vw;
     height: 40.5vw;
   }
