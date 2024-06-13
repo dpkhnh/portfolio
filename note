@@ -1,4 +1,8 @@
 ***feesh = angelnumbers (bc FEESH is replaced with angel numbers)
+***cf = cup (bc Chicken Feet is replaced with beyond the cup)
+***atl3d = tien (bc after life 3D is replaced with BA TIEN) (only in works page, not project page)
+***hb = atl (2d n 3d) (bc The Hunchback is replaced with after life 2d & 3d) (only in works page, not project page)
+***atl2d = hb (bc afterlife 2D isreplaced by the Hunchback) (only in works page, not project page)
 
 
 ***project pages:
@@ -16,8 +20,10 @@ mobile size:
   gap (between pics, margin of next n back buttons) = 1vw
 
 
-***links: can use id="hblink" for evert project link
+***links: can use id="hblink" for every project link
 
 
 ***have to fix:
+  not precise responsive when click link from other platforms (not chrome)
+  small gap lefting out in beyond the cup images slide
 
