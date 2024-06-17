@@ -3,7 +3,7 @@
 /*for whole web page*/
 html,
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; zoom: 100%;
 }
 
 * {
